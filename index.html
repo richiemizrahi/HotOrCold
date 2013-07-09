@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hot or Cold</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<style type="text/css"></style>
+		<script type="text/javascript" src="application.js"></script>
+	</head>
+	
+	<body>
+		<div class="title">
+			<h1><span id="hot">Hot </span><span id="or">or</span><span id="cold"> Cold</span></h1>
+			<p>Guess a number from 1 to 100!</p>
+		</div>
+
+		<div class="guesses">
+			<p id='pa'></p>
+			<p id='pa_items'></p>
+		</div>
+
+		<div class="Guess_Box">
+			<h2>Enter your guess here:</h2>
+			<input type="text" name="guess" id="guess" maxlength="3" autocomplete="off">
+			<div id="info"></div>			
+			<input type="submit" name="submit" id="submit" class="button">
+			<button type="button" id="newgame" class="button">New Game!</button>
+		</div>
+
+
+	</body>
+</html>
